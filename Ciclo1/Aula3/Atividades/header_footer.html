@@ -5,14 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 </head>
-
 <style>
 	
-	* {
+	body {
 		margin: 0;
-		padding: 0;
 		background-color: cyan;
-		font-family: Verdana, arial, cursive;
 	}
 	
 	header, footer{
@@ -36,37 +33,14 @@
 	}
 
 	main { 
-		width: 80%; 
+		width: 100%; 
 		height: auto;
-		margin: 40px auto;
-		display: flex;
+		margin-top: 50px;
 	}
 
-	.desafio {
+	#content {
 		width: 80%;
 		margin: 0 auto;
-		justify-content: center;
-		align-items: center;
-		background-color: green;
-	}
-
-	#quadrado {
-		width: 20px;
-		height: 20px;
-		background-color: #EF6C00;
-		position: absolute;
-		bottom: 70px;
-	}
-
-	@media screen and (max-width: 700px) {
-		main {
-			flex-direction: column;
-		}
-
-		#quadrado {
-			display: none;
-		}
-		
 	}
 
 </style>
@@ -76,10 +50,8 @@
 	<header></header>
 	
 	<main>
-
-		<div id="quadrado"></div>
 		
-		<div class="desafio">
+		<div id="content">
 
 			<p> 
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo corporis tenetur accusamus qui. Modi dolores officia dolorem labore. Facere aut, laudantium et, esse blanditiis similique. Enim inventore repellendus fugit?
@@ -96,10 +68,6 @@
 			<p> 
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo corporis tenetur accusamus qui. Modi dolores officia dolorem labore. Facere aut, laudantium et, esse blanditiis similique. Enim inventore repellendus fugit?
 			</p>
-
-		</div>
-
-		<div class="desafio">
 
 			<p> 
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo corporis tenetur accusamus qui. Modi dolores officia dolorem labore. Facere aut, laudantium et, esse blanditiis similique. Enim inventore repellendus fugit?
